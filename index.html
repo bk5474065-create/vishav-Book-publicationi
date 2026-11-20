@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vishv Book Publication Dashboard</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  font-family:Arial,sans-serif;
+  background:#eef2f8;
+  color:#222;
+}
+header{
+  background:#123d75;
+  color:white;
+  padding:25px 15px;
+  text-align:center;
+}
+header h1{
+  font-size:24px;
+}
+header p{
+  margin-top:8px;
+  color:#dceaff;
+}
+.container{
+  max-width:650px;
+  margin:22px auto;
+  padding:15px;
+}
+.demo{
+  background:#fff3cd;
+  color:#795500;
+  padding:12px;
+  text-align:center;
+  border-radius:8px;
+  margin-bottom:16px;
+  font-weight:bold;
+}
+.card{
+  background:white;
+  padding:20px;
+  border-radius:12px;
+  margin-bottom:17px;
+  box-shadow:0 3px 12px #00000010;
+}
+h2{
+  color:#123d75;
+  font-size:19px;
+  margin-bottom:16px;
+}
+.detail{
+  display:flex;
+  justify-content:space-between;
+  gap:10px;
+  padding:12px 0;
+  border-bottom:1px solid #eee;
+  font-size:14px;
+}
+.detail span:last-child{
+  font-weight:bold;
+  text-align:right;
+}
+.amount{
+  font-size:27px;
+  font-weight:bold;
+  color:#123d75;
+  margin:12px 0;
+}
+.status{
+  display:inline-block;
+  padding:7px 14px;
+  background:#fff0cf;
+  color:#946200;
+  border-radius:20px;
+  font-size:13px;
+  font-weight:bold;
+}
+.refund{
+  background:#f5f8ff;
+  padding:15px;
+  border-radius:9px;
+  line-height:1.7;
+}
+footer{
+  text-align:center;
+  color:#777;
+  padding:20px;
+  font-size:12px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Vishv Book Publication</h1>
+  <p>Customer Salary Dashboard</p>
+</header>
+
+<div class="container">
+
+<div class="demo">
+  DEMO RECORD — PAYMENT NOT VERIFIED
+</div>
+
+<div class="card">
+  <h2>Customer Information</h2>
+
+  <div class="detail">
+    <span>Full Name</span>
+    <span>Priyamvadha Vineeth</span>
+  </div>
+
+  <div class="detail">
+    <span>Mobile Number</span>
+    <span>8113857242</span>
+  </div>
+
+  <div class="detail">
+    <span>House Number</span>
+    <span>236</span>
+  </div>
+
+  <div class="detail">
+    <span>Locality</span>
+    <span>Kumbalaparamb</span>
+  </div>
+
+  <div class="detail">
+    <span>Place</span>
+    <span>Edathiruthy</span>
+  </div>
+
+  <div class="detail">
+    <span>District</span>
+    <span>Thrissur</span>
+  </div>
+
+  <div class="detail">
+    <span>State</span>
+    <span>Kerala</span>
+  </div>
+
+  <div class="detail">
+    <span>PIN Code</span>
+    <span>680703</span>
+  </div>
+</div>
+
+<div class="card">
+  <h2>Delivery Charge</h2>
+  <div class="amount">₹1,999</div>
+  <span class="status">PENDING</span>
+</div>
+
+<div class="card">
+  <h2>Total Salary</h2>
+  <div class="amount">₹19,499</div>
+  <span class="status">PENDING</span>
+</div>
+
+<div class="card">
+  <h2>Refund Information</h2>
+
+  <div class="refund">
+    <b>Refund Amount:</b> ₹19,499<br>
+    <b>Refund Status:</b> Not Initiated<br>
+    <b>Refund Time:</b> Not Confirmed<br>
+    <p>
+      Refund confirmation will be updated
+      after verification from the payment provider.
+    </p>
+  </div>
+</div>
+
+</div>
+
+<footer>
+  Vishv Book Publication<br>
+  Demo Dashboard — For Record Purposes Only
+</footer>
+
+</body>
+</html>
